@@ -9,11 +9,10 @@
         android:id="@+id/imageView5"
         android:layout_width="456dp"
         android:layout_height="782dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBaseline_toBaselineOf="parent"
-        app:srcCompat="@drawable/background"
-        tools:layout_editor_absoluteX="-23dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/background" />
 
     <ImageView
         android:id="@+id/imageView9"
