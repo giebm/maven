@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void run() {
                 // Start the main activity after the delay
-                Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
                 finish(); // Prevents the user from going back to the splash screen
             }
