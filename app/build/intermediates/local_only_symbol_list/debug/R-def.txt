@@ -11,6 +11,7 @@ drawable login
 drawable logo
 drawable organizer
 drawable splash_screen
+id btnAddSubject
 id btnCalendar
 id btnCreateCard
 id btnCreateDeck
@@ -24,6 +25,7 @@ id btnReminders
 id btnTester
 id btnTimer
 id btnToDoList
+id editTextSubject
 id imageView
 id imageView10
 id imageView2
@@ -33,8 +35,11 @@ id imageView5
 id imageView6
 id imageView7
 id imageView8
+id linearLayoutTop
+id listSubjects
 id tfName
 id txtName
+layout activity_subjects
 layout dashboard
 layout examiner
 layout login

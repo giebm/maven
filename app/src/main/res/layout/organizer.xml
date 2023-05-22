@@ -9,9 +9,6 @@
         android:id="@+id/imageView4"
         android:layout_width="476dp"
         android:layout_height="813dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBaseline_toBaselineOf="parent"
         app:srcCompat="@drawable/background"
         tools:layout_editor_absoluteX="-33dp" />
 
@@ -19,86 +16,78 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/organizer" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 
     <Button
         android:id="@+id/btnCreateSubject"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="173dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="23dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/btnToDoList"
-        app:layout_constraintEnd_toStartOf="@+id/btnCalendar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="134dp"
+        android:layout_height="133dp"
+
+        android:background="#813131"
+        android:backgroundTint="#4E2222"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="173dp" />
 
     <Button
         android:id="@+id/btnCalendar"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="173dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="23dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/btnTimer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnCreateSubject"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="134dp"
+        android:layout_height="133dp"
+
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="173dp" />
 
     <Button
         android:id="@+id/btnToDoList"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="63dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="22dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/btnGradesTracker"
-        app:layout_constraintEnd_toStartOf="@+id/btnTimer"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCreateSubject" />
+        android:layout_width="134dp"
+        android:layout_height="133dp"
+
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="329dp" />
 
     <Button
         android:id="@+id/btnTimer"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="22dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/btnReminders"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnToDoList"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalendar" />
+        android:layout_width="134dp"
+        android:layout_height="133dp"
+
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="329dp" />
 
     <Button
         android:id="@+id/btnGradesTracker"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="63dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="114dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnReminders"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnToDoList" />
+        android:layout_width="134dp"
+        android:layout_height="133dp"
+
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="484dp" />
 
     <Button
         android:id="@+id/btnReminders"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="114dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnGradesTracker"
-        app:layout_constraintTop_toBottomOf="@+id/btnTimer" />
+        android:layout_width="134dp"
+        android:layout_height="133dp"
+
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="484dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

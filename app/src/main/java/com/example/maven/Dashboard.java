@@ -35,8 +35,8 @@ public class Dashboard extends AppCompatActivity {
 
                 Toast.makeText(Dashboard.this, "Welcome to Maven's Organizer!", Toast.LENGTH_SHORT).show();
 
-//                Intent intentOrganizer = new Intent(Dashboard.this, OrganizerDashboard.class);
-//                startActivity(intentOrganizer);
+              Intent intentOrganizer = new Intent(Dashboard.this, OrganizerDashboard.class);
+               startActivity(intentOrganizer);
             }
         });
 
@@ -47,8 +47,8 @@ public class Dashboard extends AppCompatActivity {
 
                 Toast.makeText(Dashboard.this, "Welcome to Maven's Examiner!", Toast.LENGTH_SHORT).show();
 
-//                Intent intentExaminer = new Intent(Dashboard.this, ExaminerDashboard.class);
-//                startActivity(intentExaminer);
+              Intent intentExaminer = new Intent(Dashboard.this, ExaminerDashboard.class);
+               startActivity(intentExaminer);
             }
         });
 

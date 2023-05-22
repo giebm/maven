@@ -7,61 +7,83 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="438dp"
-        android:layout_height="768dp"
-        app:layout_constraintBaseline_toBaselineOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/background" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dashboard"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dashboard" />
-
-    <TextView
-        android:id="@+id/txtName"
-        android:layout_width="143dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="77dp"
-        android:layout_marginEnd="111dp"
-        android:layout_marginBottom="235dp"
-        android:text="TextView"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnOrganizer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnOrganizer"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="209dp"
-        android:backgroundTint="#5B463D"
-        android:text="I want to organize my information!"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnTester"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/btnTester"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="101dp"
-        android:backgroundTint="#5B463D"
-        android:text="I want to prepare for an exam!"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOrganizer" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add your views and content for the top LinearLayout here -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="105dp" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="143dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="170dp"
+            android:text="TextView"
+            android:textSize="30sp"
+            app:layout_constraintTop_toBottomOf="@id/imageView7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="320dp" />
+
+        <Button
+            android:id="@+id/btnOrganizer"
+            android:layout_width="315dp"
+            android:layout_height="37dp"
+            android:backgroundTint="#5B463D"
+            android:text="I want to organize my information!"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="349dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="320dp" />
+
+        <Button
+            android:id="@+id/btnTester"
+            android:layout_width="315dp"
+            android:layout_height="37dp"
+            android:backgroundTint="#5B463D"
+            android:text="I want to prepare for an exam!"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="595dp" />
+
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

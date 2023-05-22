@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Maven" >
         <activity
+            android:name="com.example.maven.SubjectsActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.maven.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -38,6 +41,8 @@
         </activity>
         <activity android:name="com.example.maven.Login" />
         <activity android:name="com.example.maven.Dashboard" />
+        <activity android:name="com.example.maven.OrganizerDashboard" />
+        <activity android:name="com.example.maven.ExaminerDashboard" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

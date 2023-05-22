@@ -1,8 +1,10 @@
 package com.example.maven;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -43,6 +45,10 @@ public class OrganizerDashboard extends AppCompatActivity implements View.OnClic
         if (click == R.id.btnCreateSubject) {
             // Button btnCreateSubject was clicked
             // Perform specific action for btnCreateSubject
+            Toast.makeText(OrganizerDashboard.this, "Welcome Subjects page!", Toast.LENGTH_SHORT).show();
+
+            Intent intentSubjects = new Intent(OrganizerDashboard.this, SubjectsActivity.class);
+            startActivity(intentSubjects);
         } else if (click == R.id.btnCalendar) {
             // Button btnCalendar was clicked
             // Perform specific action for btnCalendar
