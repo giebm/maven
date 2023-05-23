@@ -1224,6 +1224,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -1868,6 +1872,8 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -2649,6 +2655,13 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
+id btnAddNote
+id btnAddPhoto
 id btnAddSubject
 id btnCalendar
 id btnCreateCard
@@ -2738,6 +2751,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextNote
 id editTextSubject
 id edit_query
 id elastic
@@ -2789,6 +2803,7 @@ id imageView5
 id imageView6
 id imageView7
 id imageView8
+id imageViewPhoto
 id immediateStop
 id included
 id info
@@ -2809,6 +2824,7 @@ id line3
 id linear
 id linearLayoutTop
 id listMode
+id listNotes
 id listSubjects
 id list_item
 id masked
@@ -3003,6 +3019,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewTitle
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3142,6 +3159,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_notes
 layout activity_subjects
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout dashboard
 layout design_bottom_navigation_item

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.maven.app-mergeDebugResources-30:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "com.example.maven.app-mergeDebugResources-31:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\alest\\.gradle\\caches\\transforms-3\\8cdd3ff77c858fe412a16b13b2c73177\\transformed\\material-1.5.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",

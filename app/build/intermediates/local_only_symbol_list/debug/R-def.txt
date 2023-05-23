@@ -14,6 +14,8 @@ drawable maven_logo
 drawable organizer
 drawable splash_screen
 drawable sub_dashboard_button
+id btnAddNote
+id btnAddPhoto
 id btnAddSubject
 id btnCalendar
 id btnCreateCard
@@ -28,6 +30,7 @@ id btnReminders
 id btnTester
 id btnTimer
 id btnToDoList
+id editTextNote
 id editTextSubject
 id imageView
 id imageView2
@@ -36,8 +39,11 @@ id imageView5
 id imageView6
 id imageView7
 id imageView8
+id imageViewPhoto
 id linearLayoutTop
+id listNotes
 id listSubjects
+id textViewTitle
 id tfName
 id txtName
 layout activity_notes

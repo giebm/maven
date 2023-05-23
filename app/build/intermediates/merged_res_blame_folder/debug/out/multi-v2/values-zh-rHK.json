@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.maven.app-mergeDebugResources-30:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.maven.app-mergeDebugResources-31:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\alest\\.gradle\\caches\\transforms-3\\756e26356ce30d9ce8eee13690c7d474\\transformed\\play-services-base-18.0.1\\res\\values-zh-rHK\\values.xml",
