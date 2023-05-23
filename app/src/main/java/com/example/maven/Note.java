@@ -10,10 +10,16 @@ public class Note {
         // Default constructor required for Firestore
     }
 
-    public Note(String subject, String content, String photoUrl) {
+   /* public Note(String subject, String content, String photoUrl) {
         this.subject = subject;
         this.content = content;
         this.photoUrl = photoUrl;
+    }*/
+
+    public Note(String id, String subject, String content) {
+        this.id = id;
+        this.subject = subject;
+        this.content = content;
     }
 
     public String getId() {
@@ -51,6 +57,6 @@ public class Note {
     // Override toString() method if you want to display the note's information in the ArrayAdapter or elsewhere
     @Override
     public String toString() {
-        return subject;
+        return content;
     }
 }
