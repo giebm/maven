@@ -24,6 +24,8 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.TaskCompletionSource;
 import com.google.android.gms.tasks.Tasks;
@@ -166,7 +168,7 @@ public class NotesActivity extends AppCompatActivity {
         CollectionReference notesRef = db.collection("notes");
         Map<String, Object> noteData = new HashMap<>();
         noteData.put("subject", selectedSubject);
-        noteData.put("content", noteText);
+        noteData.put("content", noteText); // Add the note content to the noteData map
 
         if (currentNoteId != null) {
             // Update existing note
@@ -200,6 +202,7 @@ public class NotesActivity extends AppCompatActivity {
         }
     }
 
+
     private void resetNoteFields() {
         EditText noteEditText = findViewById(R.id.editTextNote);
         noteEditText.setText("");
@@ -212,6 +215,8 @@ public class NotesActivity extends AppCompatActivity {
         intent.setType("image/*");
         startActivityForResult(intent, REQUEST_IMAGE_PICK);
     }
+
+
 
     private boolean hasPermission() {
         int result = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE);
@@ -238,19 +243,31 @@ public class NotesActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+
         if (requestCode == REQUEST_IMAGE_PICK && resultCode == RESULT_OK && data != null) {
-            Uri selectedImageUri = data.getData();
-            if (selectedImageUri != null) {
-                try {
-                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImageUri);
-                    photoImageView.setImageBitmap(bitmap);
-                    uploadPhoto(selectedImageUri);
-                } catch (IOException e) {
-                    Log.e("NotesActivity", "Error loading image", e);
-                }
-            }
+            Uri imageUri = data.getData();
+
+            // Specify the location or path within the Firebase Storage bucket
+            StorageReference storageRef = FirebaseStorage.getInstance().getReference().child("images");
+            StorageReference imageRef = storageRef.child(imageUri.getLastPathSegment());
+
+            // Upload the image file to the specified location
+            imageRef.putFile(imageUri)
+                    .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            // Image uploaded successfully
+                            // You can perform any additional actions here, such as displaying a success message
+                        }
+                    })
+                    .addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            // Handle any errors that occur during the upload process
+                        }
+                    });
         }
     }
 
