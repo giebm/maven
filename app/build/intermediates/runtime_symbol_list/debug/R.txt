@@ -2677,6 +2677,7 @@ int id btnTimer 0x7f080077
 int id btnToDoList 0x7f080078
 int id buttonPanel 0x7f080079
 int id cache_measures 0x7f08007a
+int id calendarView 0x7f080204
 int id callMeasure 0x7f08007b
 int id cancel_button 0x7f08007c
 int id carryVelocity 0x7f08007d
@@ -3156,6 +3157,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_calendar 0x7f0b007c
 int layout activity_notes 0x7f0b001c
 int layout activity_subjects 0x7f0b001d
 int layout browser_actions_context_menu_page 0x7f0b001e

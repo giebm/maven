@@ -2678,6 +2678,7 @@ id btnTimer
 id btnToDoList
 id buttonPanel
 id cache_measures
+id calendarView
 id callMeasure
 id cancel_button
 id carryVelocity
@@ -3157,6 +3158,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_calendar
 layout activity_notes
 layout activity_subjects
 layout browser_actions_context_menu_page
