@@ -41,6 +41,7 @@ id imageView6
 id imageView7
 id imageView8
 id imageViewPhoto
+id linearLayout
 id listNotes
 id listSubjects
 id lvDecks
