@@ -2,8 +2,10 @@ package com.example.maven;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -44,6 +46,17 @@ public class SubjectsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 addSubject();
+            }
+        });
+
+        subjectsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String selectedSubject = subjectsList.get(position);
+                // Start NotesActivity and pass the selected subject
+                Intent intent =new Intent(SubjectsActivity.this, NotesActivity.class);
+                intent.putExtra("subject", selectedSubject);
+                startActivity(intent);
             }
         });
     }

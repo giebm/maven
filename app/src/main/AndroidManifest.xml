@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Maven"
         tools:targetApi="31">
         <activity
+            android:name=".NotesActivity"
+            android:exported="false" />
+        <activity
             android:name=".SubjectsActivity"
             android:exported="false" />
         <activity
@@ -28,6 +31,8 @@
         <activity android:name=".Dashboard" />
         <activity android:name=".OrganizerDashboard" />
         <activity android:name=".ExaminerDashboard" />
+
+
     </application>
 
 </manifest>

@@ -3,6 +3,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">maven</string>
+    <string name="default_web_client_id" translatable="false">34955113793-e4a69e61dkub4b1oap5ipevqao734guv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">34955113793</string>
+    <string name="google_api_key" translatable="false">AIzaSyAESfom0H4sq9_s6CRREihs8SXAh4hDOro</string>
+    <string name="google_app_id" translatable="false">1:34955113793:android:b0abaf69dce0683d63ddc0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAESfom0H4sq9_s6CRREihs8SXAh4hDOro</string>
+    <string name="google_storage_bucket" translatable="false">maven-49d41.appspot.com</string>
+    <string name="project_id" translatable="false">maven-49d41</string>
     <style name="Base.Theme.Maven" parent="Theme.Material3.DayNight.NoActionBar">
         
         
