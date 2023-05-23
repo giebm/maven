@@ -9,7 +9,6 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable login
 drawable logo
-drawable maven
 drawable maven_logo
 drawable organizer
 drawable splash_screen

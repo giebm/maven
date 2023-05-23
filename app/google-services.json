@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34955113793",
+    "project_id": "maven-49d41",
+    "storage_bucket": "maven-49d41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34955113793:android:b0abaf69dce0683d63ddc0",
+        "android_client_info": {
+          "package_name": "com.example.maven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34955113793-e4a69e61dkub4b1oap5ipevqao734guv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAESfom0H4sq9_s6CRREihs8SXAh4hDOro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34955113793-e4a69e61dkub4b1oap5ipevqao734guv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
