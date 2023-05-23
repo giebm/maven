@@ -30,6 +30,7 @@ id btnReminders
 id btnTester
 id btnTimer
 id btnToDoList
+id calendarView
 id editTextNote
 id editTextSubject
 id imageView
@@ -48,6 +49,7 @@ id tfDeckName
 id tfName
 id txtDeck
 id txtName
+layout activity_calendar
 layout activity_notes
 layout activity_subjects
 layout dashboard

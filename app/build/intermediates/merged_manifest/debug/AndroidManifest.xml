@@ -38,6 +38,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Maven" >
         <activity
+            android:name="com.example.maven.CalendarActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.maven.NotesActivity"
             android:exported="false" />
         <activity

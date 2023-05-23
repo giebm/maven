@@ -144,17 +144,19 @@ public class NotesActivity extends AppCompatActivity {
                         notesList.clear();
                         if (querySnapshot != null) {
                             for (DocumentSnapshot document : querySnapshot) {
-                                Note note = document.toObject(Note.class);
-                                if (note != null) {
-                                    note.setId(document.getId());
-                                    notesList.add(note);
-                                }
+                                String noteId = document.getId();
+                                String subject = document.getString("subject");
+                                String content = document.getString("content");
+
+                                Note note = new Note(noteId, subject, content);
+                                notesList.add(note);
                             }
                             notesAdapter.notifyDataSetChanged();
                         }
                     }
                 });
     }
+
 
     private void addNote() {
         EditText noteEditText = findViewById(R.id.editTextNote);

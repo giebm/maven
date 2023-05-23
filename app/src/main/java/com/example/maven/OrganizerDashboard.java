@@ -53,6 +53,8 @@ public class OrganizerDashboard extends AppCompatActivity implements View.OnClic
             Toast.makeText(OrganizerDashboard.this, "Calendar", Toast.LENGTH_SHORT).show();
             // Button btnCalendar was clicked
             // Perform specific action for btnCalendar
+            Intent intentCalendar= new Intent(OrganizerDashboard.this, CalendarActivity.class);
+            startActivity(intentCalendar);
         } else if (click == R.id.btnToDoList) {
             Toast.makeText(OrganizerDashboard.this, "To Do List", Toast.LENGTH_SHORT).show();
             // Button btnToDoList was clicked
