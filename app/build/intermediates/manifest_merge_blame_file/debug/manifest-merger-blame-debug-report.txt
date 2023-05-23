@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml
+8-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml
+9-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml
 10
 11    <permission
 11-->[androidx.core:core:1.9.0] C:\Users\alest\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
@@ -22,63 +22,63 @@
 15-->[androidx.core:core:1.9.0] C:\Users\alest\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:5:5-31:19
+17-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:5:5-31:19
 18        android:allowBackup="true"
-18-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.9.0] C:\Users\alest\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:7:9-65
+20-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:8:9-54
+23-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:9:9-43
+24-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:10:9-41
+25-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:10:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:11:9-54
+26-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:12:9-35
+27-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.Maven" >
-29-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:13:9-43
+29-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:13:9-43
 30        <activity
-30-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:15:9-17:40
+30-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:15:9-17:40
 31            android:name="com.example.maven.SubjectsActivity"
-31-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:16:13-45
+31-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:16:13-45
 32            android:exported="false" />
-32-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:17:13-37
+32-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
-33-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:18:9-26:20
+33-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:18:9-26:20
 34            android:name="com.example.maven.MainActivity"
-34-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:19:13-41
+34-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:19:13-41
 35            android:exported="true" >
-35-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:20:13-36
+35-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:20:13-36
 36            <intent-filter>
-36-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:21:13-25:29
+36-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:21:13-25:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:22:17-69
-37-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:22:25-66
+37-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:22:17-69
+37-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:22:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:24:17-77
-39-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:24:27-74
+39-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:24:17-77
+39-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:24:27-74
 40            </intent-filter>
 41        </activity>
 42        <activity android:name="com.example.maven.Login" />
-42-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:27:9-43
-42-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:27:19-40
+42-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:27:9-43
+42-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:27:19-40
 43        <activity android:name="com.example.maven.Dashboard" />
-43-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:28:9-47
-43-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:28:19-44
+43-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:28:9-47
+43-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:28:19-44
 44        <activity android:name="com.example.maven.OrganizerDashboard" />
-44-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:29:9-56
-44-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:29:19-53
+44-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:29:9-56
+44-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:29:19-53
 45        <activity android:name="com.example.maven.ExaminerDashboard" />
-45-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:30:9-55
-45-->C:\Users\alest\Documents\maven\app\src\main\AndroidManifest.xml:30:19-52
+45-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:30:9-55
+45-->C:\Users\alest\Documents\maven2\app\src\main\AndroidManifest.xml:30:19-52
 46
 47        <provider
 47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alest\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

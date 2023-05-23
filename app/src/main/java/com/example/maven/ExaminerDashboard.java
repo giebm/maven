@@ -3,6 +3,7 @@ package com.example.maven;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,18 +15,18 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.organizer);
+        setContentView(R.layout.examiner);
 
-        btnCreateDeck = findViewById(R.id.btnCreateSubject);
+        btnCreateDeck = findViewById(R.id.btnCreateDeck);
         btnCreateDeck.setOnClickListener(this);
 
-        btnCreateCard = findViewById(R.id.btnCalendar);
+        btnCreateCard = findViewById(R.id.btnCreateCard);
         btnCreateCard.setOnClickListener(this);
 
-        btnExamMode = findViewById(R.id.btnToDoList);
+        btnExamMode = findViewById(R.id.btnExamMode);
         btnExamMode.setOnClickListener(this);
 
-        btnProgress = findViewById(R.id.btnTimer);
+        btnProgress = findViewById(R.id.btnProgress);
         btnProgress.setOnClickListener(this);
 
     }
@@ -35,15 +36,19 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
         int click = v.getId();
 
         if (click == R.id.btnCreateDeck) {
+            Toast.makeText(ExaminerDashboard.this, "Create Deck!", Toast.LENGTH_SHORT).show();
             // Button btnCreateSubject was clicked
             // Perform specific action for btnCreateSubject
         } else if (click == R.id.btnCreateCard) {
+            Toast.makeText(ExaminerDashboard.this, "Create Card!", Toast.LENGTH_SHORT).show();
             // Button btnCalendar was clicked
             // Perform specific action for btnCalendar
         } else if (click == R.id.btnExamMode) {
+            Toast.makeText(ExaminerDashboard.this, "Exam!", Toast.LENGTH_SHORT).show();
             // Button btnToDoList was clicked
             // Perform specific action for btnToDoList
         } else if (click == R.id.btnProgress) {
+            Toast.makeText(ExaminerDashboard.this, "Progress!", Toast.LENGTH_SHORT).show();
             // Button btnTimer was clicked
             // Perform specific action for btnTimer
         }

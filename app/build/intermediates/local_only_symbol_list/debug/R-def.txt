@@ -9,8 +9,11 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable login
 drawable logo
+drawable maven
+drawable maven_logo
 drawable organizer
 drawable splash_screen
+drawable sub_dashboard_button
 id btnAddSubject
 id btnCalendar
 id btnCreateCard
@@ -27,9 +30,7 @@ id btnTimer
 id btnToDoList
 id editTextSubject
 id imageView
-id imageView10
 id imageView2
-id imageView3
 id imageView4
 id imageView5
 id imageView6

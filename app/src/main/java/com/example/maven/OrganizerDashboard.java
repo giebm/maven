@@ -50,18 +50,23 @@ public class OrganizerDashboard extends AppCompatActivity implements View.OnClic
             Intent intentSubjects = new Intent(OrganizerDashboard.this, SubjectsActivity.class);
             startActivity(intentSubjects);
         } else if (click == R.id.btnCalendar) {
+            Toast.makeText(OrganizerDashboard.this, "Calendar", Toast.LENGTH_SHORT).show();
             // Button btnCalendar was clicked
             // Perform specific action for btnCalendar
         } else if (click == R.id.btnToDoList) {
+            Toast.makeText(OrganizerDashboard.this, "To Do List", Toast.LENGTH_SHORT).show();
             // Button btnToDoList was clicked
             // Perform specific action for btnToDoList
         } else if (click == R.id.btnTimer) {
+            Toast.makeText(OrganizerDashboard.this, "Timer", Toast.LENGTH_SHORT).show();
             // Button btnTimer was clicked
             // Perform specific action for btnTimer
         } else if (click == R.id.btnGradesTracker) {
+            Toast.makeText(OrganizerDashboard.this, "Grade Tracker", Toast.LENGTH_SHORT).show();
             // Button btnGradesTracker was clicked
             // Perform specific action for btnGradesTracker
         } else if (click == R.id.btnReminders) {
+            Toast.makeText(OrganizerDashboard.this, "Reminders!", Toast.LENGTH_SHORT).show();
             // Button btnReminders was clicked
             // Perform specific action for btnReminders
         }
