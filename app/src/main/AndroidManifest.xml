@@ -31,6 +31,9 @@
         <activity android:name=".Dashboard" />
         <activity android:name=".OrganizerDashboard" />
         <activity android:name=".ExaminerDashboard" />
+        <activity
+            android:name=".DeckActivity"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />

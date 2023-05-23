@@ -29,7 +29,6 @@ public class SubjectsActivity extends AppCompatActivity {
     private Button addSubjectButton;
     private ArrayAdapter<String> subjectsAdapter;
     private List<String> subjectsList;
-
     private FirebaseFirestore db;
 
     @Override

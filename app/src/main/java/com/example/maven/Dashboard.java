@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Dashboard extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class Dashboard extends AppCompatActivity {
         btnTester = findViewById(R.id.btnTester);
 
         // name of user
-        String userName = getIntent().getStringExtra("textValue");
+        String userName = getIntent().getStringExtra("textValue" + "!");
         txtName.setText(userName);
 
         // button organizer
@@ -40,7 +41,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        // button exam prepper
+        // button examiner
         btnTester.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){

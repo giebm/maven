@@ -2659,6 +2659,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAddDeck
 id btnAddNote
 id btnAddPhoto
 id btnAddSubject
@@ -2821,11 +2822,11 @@ id light
 id line1
 id line3
 id linear
-id linearLayoutTop
 id listMode
 id listNotes
 id listSubjects
 id list_item
+id lvDecks
 id masked
 id match_constraint
 id match_parent
@@ -3028,6 +3029,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tfDeckName
 id tfName
 id time
 id title
@@ -3045,6 +3047,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtDeck
 id txtName
 id unchecked
 id uniform
@@ -3178,6 +3181,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout examiner
+layout examiner_deck
 layout login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

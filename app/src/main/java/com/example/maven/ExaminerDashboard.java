@@ -1,5 +1,6 @@
 package com.example.maven;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -37,8 +38,8 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
 
         if (click == R.id.btnCreateDeck) {
             Toast.makeText(ExaminerDashboard.this, "Create Deck!", Toast.LENGTH_SHORT).show();
-            // Button btnCreateSubject was clicked
-            // Perform specific action for btnCreateSubject
+            Intent intentCreateDeck = new Intent(ExaminerDashboard.this, DeckActivity.class);
+            startActivity(intentCreateDeck);
         } else if (click == R.id.btnCreateCard) {
             Toast.makeText(ExaminerDashboard.this, "Create Card!", Toast.LENGTH_SHORT).show();
             // Button btnCalendar was clicked

@@ -24,64 +24,100 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
-
     <LinearLayout
-        android:id="@+id/linearLayoutTop"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
-
-        <!-- Add your views and content for the top LinearLayout here -->
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="105dp" />
-
-        <TextView
-            android:id="@+id/txtName"
-            android:layout_width="143dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="170dp"
-            android:text="TextView"
-            android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView7" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="320dp" />
+            android:layout_height="67dp" />
 
-        <Button
-            android:id="@+id/btnOrganizer"
-            android:layout_width="315dp"
-            android:layout_height="37dp"
-            android:backgroundTint="#5B463D"
-            android:text="I want to organize my information!"
-            android:textSize="12sp"
-            android:layout_gravity="center"
-            tools:layout_editor_absoluteX="48dp"
-            tools:layout_editor_absoluteY="349dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal" >
+
+            <Space
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:text="Gieb!"
+                android:textColor="#000000"
+                android:textSize="40dp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="320dp" />
+            android:layout_height="235dp" />
 
-        <Button
-            android:id="@+id/btnTester"
-            android:layout_width="315dp"
-            android:layout_height="37dp"
-            android:backgroundTint="#5B463D"
-            android:text="I want to prepare for an exam!"
-            android:textSize="12sp"
-            android:layout_gravity="center"
-            tools:layout_editor_absoluteX="48dp"
-            tools:layout_editor_absoluteY="595dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
 
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnOrganizer"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#5B463D"
+                android:text="I want to organize my notes!" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="210dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnTester"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#5B463D"
+                android:text="I want to prepare for an exam!" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="104dp" />
 
     </LinearLayout>
 

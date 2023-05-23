@@ -56,6 +56,9 @@
         <activity android:name="com.example.maven.Dashboard" />
         <activity android:name="com.example.maven.OrganizerDashboard" />
         <activity android:name="com.example.maven.ExaminerDashboard" />
+        <activity
+            android:name="com.example.maven.DeckActivity"
+            android:windowSoftInputMode="adjustResize" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
