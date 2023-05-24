@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\layout_activity_subjects.xml.flat",
-        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\layout\\activity_subjects.xml"
-    },
-    {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\layout_activity_subjects.xml.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\layout\\activity_subjects.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\drawable_add_button.png.flat",
@@ -16,8 +16,8 @@
         "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\drawable\\background.png"
     },
     {
-        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\layout_list_item_card.xml.flat",
-        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\layout\\list_item_card.xml"
+        "merged": "com.example.maven.app-merged_res-32:/layout_examiner_card_highlight.xml.flat",
+        "source": "com.example.maven.app-main-34:/layout/examiner_card_highlight.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\drawable_login.png.flat",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\layout\\splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\drawable_black_bar.png.flat",
-        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\drawable\\black_bar.png"
-    },
-    {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\drawable_black_bar.png.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\drawable\\black_bar.png"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\layout\\examiner_deck.xml"
     },
     {
-        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\layout_examiner_create_card.xml.flat",
-        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\layout\\examiner_create_card.xml"
-    },
-    {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\layout_examiner_create_card.xml.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-main-34:\\layout\\examiner_create_card.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.0\\com.example.maven.app-merged_res-32:\\layout_login.xml.flat",

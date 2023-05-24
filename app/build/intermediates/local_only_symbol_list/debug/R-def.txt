@@ -47,6 +47,8 @@ id imageView6
 id imageView7
 id imageView8
 id imageViewPhoto
+id lblAnswer
+id lblQuestion
 id linearLayout
 id listNotes
 id listSubjects
@@ -59,15 +61,18 @@ id tfName
 id tfQuestion
 id txtAddCard
 id txtAnswer
+id txtAnswerHighlight
 id txtDeck
 id txtDeckName
 id txtName
 id txtQuestion
+id txtQuestionHighlight
 layout activity_calendar
 layout activity_notes
 layout activity_subjects
 layout dashboard
 layout examiner
+layout examiner_card_highlight
 layout examiner_create_card
 layout examiner_deck
 layout examiner_deck_cards_overview

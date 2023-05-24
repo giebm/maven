@@ -104,10 +104,53 @@ public class ExaminerDeckOverview extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Handle item click
-                // Example:
                 String selectedQuestion = questionList.get(position);
-                // Do something with the selected question
+
+                // Retrieve the deck name from the intent
+                Intent intent = getIntent();
+                String deckName = intent.getStringExtra("deckName");
+
+                // Retrieve the deckId using the deckName
+                firestore.collection("decks")
+                        .whereEqualTo("name", deckName)
+                        .get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        String deckId = document.getId();
+
+                                        // Retrieve the cardId based on the selected question
+                                        firestore.collection("decks")
+                                                .document(deckId)
+                                                .collection("cards")
+                                                .whereEqualTo("question", selectedQuestion)
+                                                .get()
+                                                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                                                    @Override
+                                                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                                        if (task.isSuccessful()) {
+                                                            if (task.getResult().size() > 0) {
+                                                                // Assuming the question is unique, get the first document
+                                                                DocumentSnapshot cardDocument = task.getResult().getDocuments().get(0);
+                                                                String cardId = cardDocument.getId();
+
+                                                                // Create an intent to start the ExaminerCardHighlight activity
+                                                                Intent intent = new Intent(ExaminerDeckOverview.this, ExaminerCardHighlight.class);
+                                                                intent.putExtra("deckId", deckId);
+                                                                intent.putExtra("cardId", cardId);
+                                                                startActivity(intent);
+                                                            }
+                                                        }
+                                                    }
+                                                });
+                                    }
+                                }
+                            }
+                        });
             }
         });
+
     }
 }

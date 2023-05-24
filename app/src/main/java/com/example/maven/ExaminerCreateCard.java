@@ -1,16 +1,13 @@
 package com.example.maven;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -110,6 +107,9 @@ public class ExaminerCreateCard extends AppCompatActivity {
                                     // Clear the EditText fields
                                     tfQuestion.setText("");
                                     tfAnswer.setText("");
+
+                                    Intent intentCreateDeck = new Intent(ExaminerCreateCard.this, DeckActivity.class);
+                                    startActivity(intentCreateDeck);
                                 }
                             })
                             .addOnFailureListener(new OnFailureListener() {
@@ -123,5 +123,6 @@ public class ExaminerCreateCard extends AppCompatActivity {
                 }
             }
         });
+
     }
 }
