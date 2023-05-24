@@ -30,6 +30,7 @@ public class DeckActivity extends AppCompatActivity {
 
     private TextView deckNameEditText;
     private Button addDeckButton;
+    private Button btnBackToDashboard;
     private ListView deckListView;
     private List<String> deckList;
     private ArrayAdapter<String> deckListAdapter;
@@ -46,6 +47,7 @@ public class DeckActivity extends AppCompatActivity {
         // Initialize UI components
         deckNameEditText = findViewById(R.id.tfDeckName);
         addDeckButton = findViewById(R.id.btnAddDeck);
+        btnBackToDashboard = findViewById(R.id.btnBackToDashboard);
         deckListView = findViewById(R.id.lvDecks);
         deckList = new ArrayList<>();
         deckListAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, deckList);
@@ -72,6 +74,12 @@ public class DeckActivity extends AppCompatActivity {
                 String selectedDeck = deckList.get(position);
                 navigateToDeckOverview(selectedDeck);
             }
+        });
+
+        btnBackToDashboard.setOnClickListener(v -> {
+            // Start the ExaminerDashboard activity
+            Intent intent = new Intent(DeckActivity.this, ExaminerDashboard.class);
+            startActivity(intent);
         });
     }
 
@@ -113,6 +121,7 @@ public class DeckActivity extends AppCompatActivity {
                         }
                     }
                 });
+
     }
 
     // Navigate to DeckOverviewActivity

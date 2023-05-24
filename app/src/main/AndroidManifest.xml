@@ -53,6 +53,8 @@
         <activity android:name=".ExaminerExamModeBlitz" />
         <activity android:name=".ExaminerExamModeResults" />
         <activity android:name=".ExaminerExamModeNonBlitz" />
+        <activity android:name=".ExaminerProgressDashboardDeckList" />
+        <activity android:name=".ExaminerProgressReport" />
 
     </application>
 

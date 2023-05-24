@@ -23,6 +23,7 @@ id btnAddDeck
 id btnAddNote
 id btnAddPhoto
 id btnAddSubject
+id btnBackToDashboard
 id btnCalendar
 id btnCancel
 id btnCorrect
@@ -30,6 +31,7 @@ id btnCreateCard
 id btnCreateCardFromDeck
 id btnCreateDeck
 id btnCreateSubject
+id btnDashBoard
 id btnDashboard
 id btnExamMode
 id btnGradesTracker
@@ -40,6 +42,7 @@ id btnReminders
 id btnShowAnswer
 id btnTester
 id btnTimer
+id btnToDashboard
 id btnToDoList
 id btnWrong
 id calendarView
@@ -70,6 +73,7 @@ id listSubjects
 id listView
 id lvCards
 id lvDecks
+id lvDecksProgress
 id lvDecksQuiz
 id reminderEditText
 id reminderTextView
@@ -81,7 +85,12 @@ id stop_button
 id switchBlitz
 id taskEditText
 id textView
+id textView12
+id textView3
+id textView4
 id textView5
+id textView6
+id textView9
 id textViewCalendar
 id textViewReminderDate
 id textViewReminderTime
@@ -97,9 +106,13 @@ id txtAddCard
 id txtAnswer
 id txtAnswerHighlight
 id txtAnswerNonBlitz
+id txtBest
+id txtBetter
 id txtCorrect
 id txtDeck
 id txtDeckName
+id txtDeckNameProgress
+id txtGood
 id txtName
 id txtQuestion
 id txtQuestionHighlight
@@ -124,6 +137,8 @@ layout examiner_exam_mode_blitz
 layout examiner_exam_mode_decks
 layout examiner_exam_mode_non_blitz
 layout examiner_exam_mode_results
+layout examiner_progress
+layout examiner_progress_dashboard_deck_list
 layout item_reminder
 layout list_item_reminder
 layout login

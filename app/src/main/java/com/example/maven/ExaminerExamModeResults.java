@@ -1,5 +1,6 @@
 package com.example.maven;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -48,6 +49,12 @@ public class ExaminerExamModeResults extends AppCompatActivity {
             // Save the results to Firestore
             saveResultsToFirestore(deckId, countCorrect, countWrong, average);
         }
+
+        btnDashboard.setOnClickListener(v -> {
+            // Start the ExaminerDashboard activity
+            Intent intent = new Intent(ExaminerExamModeResults.this, ExaminerDashboard.class);
+            startActivity(intent);
+        });
     }
 
     private double calculateAverage(int correct, int wrong) {

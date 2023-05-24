@@ -2668,6 +2668,7 @@ int id btnAddDeck 0x7f08006c
 int id btnAddNote 0x7f08006d
 int id btnAddPhoto 0x7f08006e
 int id btnAddSubject 0x7f08006f
+int id btnBackToDashboard 0x7f080240
 int id btnCalendar 0x7f080070
 int id btnCancel 0x7f080071
 int id btnCorrect 0x7f080231
@@ -2675,6 +2676,7 @@ int id btnCreateCard 0x7f080072
 int id btnCreateCardFromDeck 0x7f080073
 int id btnCreateDeck 0x7f080074
 int id btnCreateSubject 0x7f080075
+int id btnDashBoard 0x7f080241
 int id btnDashboard 0x7f080239
 int id btnExamMode 0x7f080076
 int id btnGradesTracker 0x7f080077
@@ -2685,6 +2687,7 @@ int id btnReminders 0x7f08007b
 int id btnShowAnswer 0x7f080232
 int id btnTester 0x7f08007c
 int id btnTimer 0x7f08007d
+int id btnToDashboard 0x7f080242
 int id btnToDoList 0x7f08007e
 int id btnWrong 0x7f080233
 int id buttonPanel 0x7f08007f
@@ -2853,6 +2856,7 @@ int id listView 0x7f08011f
 int id list_item 0x7f080120
 int id lvCards 0x7f080121
 int id lvDecks 0x7f080122
+int id lvDecksProgress 0x7f080243
 int id lvDecksQuiz 0x7f080123
 int id masked 0x7f080124
 int id match_constraint 0x7f080125
@@ -3056,7 +3060,12 @@ int id textSpacerNoTitle 0x7f0801ea
 int id textStart 0x7f0801eb
 int id textTop 0x7f0801ec
 int id textView 0x7f08023a
+int id textView12 0x7f080244
+int id textView3 0x7f080245
+int id textView4 0x7f080246
 int id textView5 0x7f08023b
+int id textView6 0x7f080247
+int id textView9 0x7f080248
 int id textViewCalendar 0x7f0801ed
 int id textViewReminderDate 0x7f0801ee
 int id textViewReminderTime 0x7f0801ef
@@ -3097,9 +3106,13 @@ int id txtAddCard 0x7f080211
 int id txtAnswer 0x7f080212
 int id txtAnswerHighlight 0x7f080213
 int id txtAnswerNonBlitz 0x7f08023e
+int id txtBest 0x7f080249
+int id txtBetter 0x7f08024a
 int id txtCorrect 0x7f08023c
 int id txtDeck 0x7f080214
 int id txtDeckName 0x7f080215
+int id txtDeckNameProgress 0x7f08024b
+int id txtGood 0x7f08024c
 int id txtName 0x7f080216
 int id txtQuestion 0x7f080217
 int id txtQuestionHighlight 0x7f080218
@@ -3252,6 +3265,8 @@ int layout examiner_exam_mode_blitz 0x7f0b0089
 int layout examiner_exam_mode_decks 0x7f0b003c
 int layout examiner_exam_mode_non_blitz 0x7f0b008b
 int layout examiner_exam_mode_results 0x7f0b008a
+int layout examiner_progress 0x7f0b008c
+int layout examiner_progress_dashboard_deck_list 0x7f0b008d
 int layout item_reminder 0x7f0b003d
 int layout list_item_reminder 0x7f0b003e
 int layout login 0x7f0b003f

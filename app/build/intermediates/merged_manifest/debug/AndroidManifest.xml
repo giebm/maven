@@ -75,6 +75,8 @@
         <activity android:name="com.example.maven.ExaminerExamModeBlitz" />
         <activity android:name="com.example.maven.ExaminerExamModeResults" />
         <activity android:name="com.example.maven.ExaminerExamModeNonBlitz" />
+        <activity android:name="com.example.maven.ExaminerProgressDashboardDeckList" />
+        <activity android:name="com.example.maven.ExaminerProgressReport" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

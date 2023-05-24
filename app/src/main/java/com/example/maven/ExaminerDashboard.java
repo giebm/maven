@@ -50,8 +50,8 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
             startActivity(intentExam);
         } else if (click == R.id.btnProgress) {
             Toast.makeText(ExaminerDashboard.this, "Progress!", Toast.LENGTH_SHORT).show();
-            // Button btnTimer was clicked
-            // Perform specific action for btnTimer
+            Intent intentProgress = new Intent(ExaminerDashboard.this, ExaminerProgressDashboardDeckList.class);
+            startActivity(intentProgress);
         }
     }
 
