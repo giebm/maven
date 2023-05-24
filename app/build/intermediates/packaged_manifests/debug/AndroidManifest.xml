@@ -76,10 +76,6 @@
 
             <!-- Intent filters or other attributes if applicable -->
         </activity>
-        <activity
-            android:name="com.example.maven.ExaminerCardHighlight"
-            android:label="Examiner Card Highlight" >
-        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
