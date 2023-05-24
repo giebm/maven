@@ -94,6 +94,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
+string todo_list_activity_label
 style Base.Theme.Maven
 style Theme.Maven
 xml backup_rules

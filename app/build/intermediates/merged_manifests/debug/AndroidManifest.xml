@@ -64,6 +64,12 @@
             android:windowSoftInputMode="adjustResize" />
         <activity android:name="com.example.maven.ExaminerDeckOverview" />
         <activity android:name="com.example.maven.ExaminerCreateCard" />
+        <activity
+            android:name="com.example.maven.ToDoListActivity"
+            android:label="@string/todo_list_activity_label" >
+
+            <!-- Intent filters or other attributes if applicable -->
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

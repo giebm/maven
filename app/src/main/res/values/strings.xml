@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">maven</string>
+    <string name="todo_list_activity_label">maven to do list</string>
 </resources>

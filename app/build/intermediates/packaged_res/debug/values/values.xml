@@ -10,6 +10,7 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAESfom0H4sq9_s6CRREihs8SXAh4hDOro</string>
     <string name="google_storage_bucket" translatable="false">maven-49d41.appspot.com</string>
     <string name="project_id" translatable="false">maven-49d41</string>
+    <string name="todo_list_activity_label">maven to do list</string>
     <style name="Base.Theme.Maven" parent="Theme.Material3.DayNight.NoActionBar">
         
         

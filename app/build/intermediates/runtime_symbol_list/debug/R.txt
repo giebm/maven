@@ -3443,6 +3443,7 @@ int string path_password_strike_through 0x7f0e0099
 int string project_id 0x7f0e009a
 int string search_menu_title 0x7f0e009b
 int string status_bar_notification_info_overflow 0x7f0e009c
+int string todo_list_activity_label 0x7f0e009d
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style AndroidThemeColorAccentYellow 0x7f0f0002
