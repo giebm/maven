@@ -1,170 +1,166 @@
 [
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_calendar.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_calendar.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_activity_notes.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\activity_notes.xml"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_add_button.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/add_button.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner.xml"
+        "merged": "com.example.maven.app-merged_res-33:/layout_login.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/login.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_card_highlight.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_card_highlight.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\logo.png"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.maven.app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.maven.app-main-35:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_login.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\login.xml"
-    },
-    {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_activity_calendar.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\activity_calendar.xml"
-    },
-    {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_create_card.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_create_card.xml"
-    },
-    {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_organizer.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\organizer.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.example.maven.app-merged_res-33:/layout_dialog_add_task.xml.flat",
         "source": "com.example.maven.app-main-35:/layout/dialog_add_task.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_card_highlight.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_card_highlight.xml"
+        "merged": "com.example.maven.app-merged_res-33:/layout_dashboard.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_login.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/login.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_organizer.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\organizer.png"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_logo.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_activity_subjects.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\activity_subjects.xml"
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_subjects.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_subjects.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_examiner.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\examiner.png"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_sub_dashboard_button.xml.flat",
+        "source": "com.example.maven.app-main-35:/drawable/sub_dashboard_button.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\xml\\backup_rules.xml"
+        "merged": "com.example.maven.app-merged_res-33:/layout_splash_screen.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_black_bar.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\black_bar.png"
+        "merged": "com.example.maven.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.maven.app-main-35:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_organizer.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/organizer.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_deck_cards_overview.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_deck_cards_overview.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_dialog_add_task.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\dialog_add_task.xml"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_maven_logo.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/maven_logo.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_background.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/background.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_dashboard.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\dashboard.png"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_splash_screen.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/splash_screen.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_login.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\login.png"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_dashboard.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/dashboard.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_background.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\background.png"
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_deck.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_deck.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_activity_to_do_list.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\activity_to_do_list.xml"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_examiner.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/examiner.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_maven_logo.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\maven_logo.png"
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_create_card.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_create_card.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_splash_screen.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\splash_screen.png"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_black_bar.png.flat",
+        "source": "com.example.maven.app-main-35:/drawable/black_bar.png"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.maven.app-merged_res-33:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.maven.app-main-35:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_dashboard.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\dashboard.xml"
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_deck_cards_overview.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_deck_cards_overview.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_deck.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_deck.xml"
+        "merged": "com.example.maven.app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.maven.app-main-35:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_sub_dashboard_button.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\sub_dashboard_button.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_splash_screen.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\splash_screen.xml"
+        "merged": "com.example.maven.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maven.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_add_button.png.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\add_button.png"
+        "merged": "com.example.maven.app-merged_res-33:/layout_organizer.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/organizer.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_to_do_list.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_to_do_list.xml"
+    },
+    {
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_notes.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_notes.xml"
+    },
+    {
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner.xml"
     }
 ]

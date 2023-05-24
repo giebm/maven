@@ -1,13 +1,13 @@
-#Wed May 24 21:16:27 SGT 2023
-path.3=classes2.dex
-path.2=2/classes.dex
-path.1=0/classes.dex
+#Wed May 24 21:28:40 SGT 2023
+base.0=C\:\\Users\\franc\\AndroidStudioProjects\\maven\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\franc\\AndroidStudioProjects\\maven\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\franc\\AndroidStudioProjects\\maven\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.3=C\:\\Users\\franc\\AndroidStudioProjects\\maven\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
-base.3=D\:\\Libraries\\Downloads\\keisamaee\\maven\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.2=D\:\\Libraries\\Downloads\\keisamaee\\maven\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.1=D\:\\Libraries\\Downloads\\keisamaee\\maven\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=D\:\\Libraries\\Downloads\\keisamaee\\maven\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
+path.1=0/classes.dex
+path.2=2/classes.dex
+path.3=classes2.dex
 renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
