@@ -46,8 +46,8 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
             // Perform specific action for btnCalendar
         } else if (click == R.id.btnExamMode) {
             Toast.makeText(ExaminerDashboard.this, "Exam!", Toast.LENGTH_SHORT).show();
-            // Button btnToDoList was clicked
-            // Perform specific action for btnToDoList
+            Intent intentExam = new Intent(ExaminerDashboard.this, ExaminerExamMode.class);
+            startActivity(intentExam);
         } else if (click == R.id.btnProgress) {
             Toast.makeText(ExaminerDashboard.this, "Progress!", Toast.LENGTH_SHORT).show();
             // Button btnTimer was clicked

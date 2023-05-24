@@ -2829,7 +2829,10 @@ id jumpToStart
 id labeled
 id layout
 id lblAnswer
+id lblBlitzDescription
 id lblQuestion
+id lblQuiz
+id lblSubtitle
 id left
 id leftToRight
 id legacy
@@ -2845,6 +2848,7 @@ id listView
 id list_item
 id lvCards
 id lvDecks
+id lvDecksQuiz
 id masked
 id match_constraint
 id match_parent
@@ -3019,6 +3023,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchBlitz
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3231,6 +3236,7 @@ layout examiner_card_highlight
 layout examiner_create_card
 layout examiner_deck
 layout examiner_deck_cards_overview
+layout examiner_exam_mode_decks
 layout item_reminder
 layout list_item_reminder
 layout login

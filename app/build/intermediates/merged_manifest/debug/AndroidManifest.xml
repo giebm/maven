@@ -38,12 +38,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.Maven" >
         <activity
-            android:name="com.example.maven.ReminderActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.maven.TimerActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.maven.CalendarActivity"
             android:exported="false" />
         <activity
@@ -70,13 +64,17 @@
             android:windowSoftInputMode="adjustResize" />
         <activity android:name="com.example.maven.ExaminerDeckOverview" />
         <activity android:name="com.example.maven.ExaminerCreateCard" />
+        <activity android:name="com.example.maven.ExaminerCardHighlight" />
+        <activity android:name="com.example.maven.ExaminerExamMode" />
         <activity
             android:name="com.example.maven.ToDoListActivity"
             android:label="@string/todo_list_activity_label" >
 
             <!-- Intent filters or other attributes if applicable -->
         </activity>
-        <activity android:name="com.example.maven.ExaminerCardHighlight" />
+        <activity
+            android:name="com.example.maven.ReminderActivity"
+            android:exported="false" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

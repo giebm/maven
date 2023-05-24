@@ -54,13 +54,17 @@ id imageView7
 id imageView8
 id imageViewPhoto
 id lblAnswer
+id lblBlitzDescription
 id lblQuestion
+id lblQuiz
+id lblSubtitle
 id linearLayout
 id listNotes
 id listSubjects
 id listView
 id lvCards
 id lvDecks
+id lvDecksQuiz
 id reminderEditText
 id reminderTextView
 id remindersRecyclerView
@@ -68,6 +72,7 @@ id restart_button
 id saveButton
 id start_button
 id stop_button
+id switchBlitz
 id taskEditText
 id textViewCalendar
 id textViewReminderDate
@@ -102,6 +107,7 @@ layout examiner_card_highlight
 layout examiner_create_card
 layout examiner_deck
 layout examiner_deck_cards_overview
+layout examiner_exam_mode_decks
 layout item_reminder
 layout list_item_reminder
 layout login
