@@ -65,6 +65,8 @@ public class OrganizerDashboard extends AppCompatActivity implements View.OnClic
             Toast.makeText(OrganizerDashboard.this, "Timer", Toast.LENGTH_SHORT).show();
             // Button btnTimer was clicked
             // Perform specific action for btnTimer
+            Intent intentTimer= new Intent(OrganizerDashboard.this, TimerActivity.class);
+            startActivity(intentTimer);
         } else if (click == R.id.btnGradesTracker) {
             Toast.makeText(OrganizerDashboard.this, "Grade Tracker", Toast.LENGTH_SHORT).show();
             // Button btnGradesTracker was clicked
@@ -73,6 +75,8 @@ public class OrganizerDashboard extends AppCompatActivity implements View.OnClic
             Toast.makeText(OrganizerDashboard.this, "Reminders!", Toast.LENGTH_SHORT).show();
             // Button btnReminders was clicked
             // Perform specific action for btnReminders
+            Intent intentReminder= new Intent(OrganizerDashboard.this, ReminderActivity.class);
+            startActivity(intentReminder);
         }
     }
 
