@@ -89,10 +89,44 @@ public class ExaminerExamMode extends AppCompatActivity {
     }
 
     private void startBlitzMode(String deckName) {
-        // TODO: Implement the logic to start blitz mode with a 1-minute time restriction for the selected deck
+        // Retrieve the deckId based on the deckName
+        firestore.collection("decks")
+                .whereEqualTo("name", deckName)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(Task<QuerySnapshot> task) {
+                        if (task.isSuccessful() && !task.getResult().isEmpty()) {
+                            DocumentReference deckRef = task.getResult().getDocuments().get(0).getReference();
+                            String deckId = deckRef.getId();
+
+                            // Start the Blitz mode activity and pass the deckId
+                            Intent intent = new Intent(ExaminerExamMode.this, ExaminerExamModeBlitz.class);
+                            intent.putExtra("deckId", deckId);
+                            startActivity(intent);
+                        }
+                    }
+                });
     }
 
     private void startNonBlitzMode(String deckName) {
-        // TODO: Implement the logic to start non-blitz mode without any time restriction for the selected deck
+        // Retrieve the deckId based on the deckName
+        firestore.collection("decks")
+                .whereEqualTo("name", deckName)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(Task<QuerySnapshot> task) {
+                        if (task.isSuccessful() && !task.getResult().isEmpty()) {
+//                            DocumentReference deckRef = task.getResult().getDocuments().get(0).getReference();
+//                            String deckId = deckRef.getId();
+//
+//                            // Start the Non-Blitz mode activity and pass the deckId
+//                            Intent intent = new Intent(ExaminerExamMode.this, ExaminerExamModeNonBlitz.class);
+//                            intent.putExtra("deckId", deckId);
+//                            startActivity(intent);
+                        }
+                    }
+                });
     }
 }

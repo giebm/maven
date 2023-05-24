@@ -15,6 +15,15 @@
         android:theme="@style/Theme.Maven"
         tools:targetApi="31">
         <activity
+            android:name=".ReminderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToDoListActivity"
+            android:label="@string/todo_list_activity_label" />
+        <activity
             android:name=".CalendarActivity"
             android:exported="false" />
         <activity
@@ -28,25 +37,21 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".Login" />
         <activity android:name=".Dashboard" />
         <activity android:name=".OrganizerDashboard" />
-        <activity android:name=".ExaminerDashboard" />
-        <activity
-            android:name=".DeckActivity"
-            android:windowSoftInputMode="adjustResize" />
 
+        <activity android:name=".ExaminerDashboard" />
+        <activity android:name=".DeckActivity" />
         <activity android:name=".ExaminerDeckOverview" />
         <activity android:name=".ExaminerCreateCard" />
-        <activity
-            android:name="com.example.maven.ToDoListActivity"
-            android:label="@string/todo_list_activity_label">
-            <!-- Intent filters or other attributes if applicable -->
-        </activity>
+        <activity android:name=".ExaminerExamMode" />
+        <activity android:name=".ExaminerExamModeBlitz" />
+        <activity android:name=".ExaminerExamModeResults" />
 
     </application>
 

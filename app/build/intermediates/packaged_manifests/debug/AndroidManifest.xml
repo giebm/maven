@@ -44,6 +44,9 @@
             android:name="com.example.maven.TimerActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.maven.ToDoListActivity"
+            android:label="@string/todo_list_activity_label" />
+        <activity
             android:name="com.example.maven.CalendarActivity"
             android:exported="false" />
         <activity
@@ -65,18 +68,12 @@
         <activity android:name="com.example.maven.Dashboard" />
         <activity android:name="com.example.maven.OrganizerDashboard" />
         <activity android:name="com.example.maven.ExaminerDashboard" />
-        <activity
-            android:name="com.example.maven.DeckActivity"
-            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.example.maven.DeckActivity" />
         <activity android:name="com.example.maven.ExaminerDeckOverview" />
         <activity android:name="com.example.maven.ExaminerCreateCard" />
-        <activity
-            android:name="com.example.maven.ToDoListActivity"
-            android:label="@string/todo_list_activity_label" >
-
-            <!-- Intent filters or other attributes if applicable -->
-        </activity>
-        <activity android:name="com.example.maven.ExaminerCardHighlight" />
+        <activity android:name="com.example.maven.ExaminerExamMode" />
+        <activity android:name="com.example.maven.ExaminerExamModeBlitz" />
+        <activity android:name="com.example.maven.ExaminerExamModeResults" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
