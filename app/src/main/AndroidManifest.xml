@@ -42,7 +42,6 @@
 
         <activity android:name=".ExaminerDeckOverview" />
         <activity android:name=".ExaminerCreateCard" />
-        <activity android:name=".ExaminerCardHighlight" />
 
     </application>
 

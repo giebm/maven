@@ -15,6 +15,7 @@ drawable maven_logo
 drawable organizer
 drawable splash_screen
 drawable sub_dashboard_button
+id addTaskButton
 id btnAddCard
 id btnAddDeck
 id btnAddNote
@@ -52,8 +53,10 @@ id lblQuestion
 id linearLayout
 id listNotes
 id listSubjects
+id listView
 id lvCards
 id lvDecks
+id taskEditText
 id textViewTitle
 id tfAnswer
 id tfDeckName
@@ -70,7 +73,9 @@ id txtQuestionHighlight
 layout activity_calendar
 layout activity_notes
 layout activity_subjects
+layout activity_to_do_list
 layout dashboard
+layout dialog_add_task
 layout examiner
 layout examiner_card_highlight
 layout examiner_create_card

@@ -2627,6 +2627,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addTaskButton
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2835,6 +2836,7 @@ id linearLayout
 id listMode
 id listNotes
 id listSubjects
+id listView
 id list_item
 id lvCards
 id lvDecks
@@ -3019,6 +3021,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id taskEditText
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -3181,6 +3184,7 @@ layout abc_tooltip
 layout activity_calendar
 layout activity_notes
 layout activity_subjects
+layout activity_to_do_list
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3200,6 +3204,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_add_task
 layout examiner
 layout examiner_card_highlight
 layout examiner_create_card
