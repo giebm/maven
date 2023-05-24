@@ -42,17 +42,11 @@
 
         <activity android:name=".ExaminerDeckOverview" />
         <activity android:name=".ExaminerCreateCard" />
-        <activity android:name=".ExaminerCardHighlight" />
-        <activity android:name=".ExaminerExamMode" />
         <activity
             android:name="com.example.maven.ToDoListActivity"
             android:label="@string/todo_list_activity_label">
-            
             <!-- Intent filters or other attributes if applicable -->
         </activity>
-        
-        <activity android:name=".ReminderActivity"
-            android:exported="false"/>
 
     </application>
 
