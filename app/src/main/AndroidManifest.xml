@@ -53,6 +53,13 @@
 
             <!-- Intent filters or other attributes if applicable -->
         </activity>
+
+        <activity
+            android:name=".ExaminerCardHighlight"
+            android:label="Examiner Card Highlight">
+        </activity>
+
+
     </application>
 
 </manifest>
