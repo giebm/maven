@@ -48,8 +48,6 @@
             <!-- Intent filters or other attributes if applicable -->
         </activity>
 
-        <activity android:name=".ExaminerCardHighlight" />
-
     </application>
 
 </manifest>

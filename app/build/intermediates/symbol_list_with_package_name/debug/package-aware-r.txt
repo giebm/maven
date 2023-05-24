@@ -2505,6 +2505,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icc_add
 drawable login
 drawable logo
 drawable m3_appbar_background
@@ -2627,6 +2628,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addReminderButton
 id addTaskButton
 id adjust_height
 id adjust_width
@@ -2725,6 +2727,8 @@ id custom
 id customPanel
 id cut
 id dark
+id datePicker
+id dateTimeTextView
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2754,6 +2758,7 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
+id duration_edit_text
 id easeIn
 id easeInOut
 id easeOut
@@ -2939,6 +2944,10 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id reminderEditText
+id reminderTextView
+id remindersRecyclerView
+id restart_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2946,6 +2955,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saveButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3000,9 +3010,11 @@ id start
 id startHorizontal
 id startToEnd
 id startVertical
+id start_button
 id staticLayout
 id staticPostLayout
 id stop
+id stop_button
 id stretch
 id submenuarrow
 id submit_area
@@ -3033,6 +3045,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewCalendar
+id textViewReminderDate
+id textViewReminderTime
+id textViewSchedules
 id textViewTitle
 id text_input_end_icon
 id text_input_error_icon
@@ -3048,6 +3064,8 @@ id tfDeckName
 id tfName
 id tfQuestion
 id time
+id timePicker
+id timer_text_view
 id title
 id titleDividerNoCustom
 id title_template
@@ -3183,7 +3201,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_calendar
 layout activity_notes
+layout activity_reminder
 layout activity_subjects
+layout activity_timer
 layout activity_to_do_list
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -3204,12 +3224,15 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_add_reminder
 layout dialog_add_task
 layout examiner
 layout examiner_card_highlight
 layout examiner_create_card
 layout examiner_deck
 layout examiner_deck_cards_overview
+layout item_reminder
+layout list_item_reminder
 layout login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
