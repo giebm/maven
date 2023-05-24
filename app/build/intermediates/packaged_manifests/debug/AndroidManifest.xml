@@ -38,6 +38,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Maven" >
         <activity
+            android:name="com.example.maven.PerformanceLogsActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.maven.ReminderActivity"
             android:exported="false" />
         <activity
@@ -77,6 +80,9 @@
         <activity android:name="com.example.maven.ExaminerExamModeNonBlitz" />
         <activity android:name="com.example.maven.ExaminerProgressDashboardDeckList" />
         <activity android:name="com.example.maven.ExaminerProgressReport" />
+        <activity
+            android:name="com.example.maven.ExaminerCardHighlight"
+            android:label="ExaminerCardHighlight" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

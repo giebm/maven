@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.55" />
 
     <Button
-        android:id="@+id/btnGradesTracker"
+        android:id="@+id/btnPerformanceLogs"
         android:layout_width="134dp"
         android:layout_height="133dp"
         android:background="@drawable/sub_dashboard_button"

@@ -2626,8 +2626,13 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id activityEditText
+id activityPercentageEditText
+id activityPercentageTextView
+id activityTextView
 id activity_chooser_view_content
 id add
+id addLogsButton
 id addReminderButton
 id addTaskButton
 id adjust_height
@@ -2680,8 +2685,8 @@ id btnCreateSubject
 id btnDashBoard
 id btnDashboard
 id btnExamMode
-id btnGradesTracker
 id btnOrganizer
+id btnPerformanceLogs
 id btnProceed
 id btnProgress
 id btnReminders
@@ -2855,6 +2860,7 @@ id listNotes
 id listSubjects
 id listView
 id list_item
+id logsRecyclerView
 id lvCards
 id lvDecks
 id lvDecksProgress
@@ -2974,6 +2980,8 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scorePercentageEditText
+id scorePercentageTextView
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3030,7 +3038,11 @@ id staticPostLayout
 id stop
 id stop_button
 id stretch
+id subjectEditText
+id subjectTextView
+id subjectsRecyclerView
 id submenuarrow
+id submitButton
 id submit_area
 id supportScrollUp
 id switchBlitz
@@ -3232,6 +3244,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_calendar
 layout activity_notes
+layout activity_performance_logs
 layout activity_reminder
 layout activity_subjects
 layout activity_timer
@@ -3255,6 +3268,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_add_logs
 layout dialog_add_reminder
 layout dialog_add_task
 layout examiner
@@ -3268,7 +3282,9 @@ layout examiner_exam_mode_non_blitz
 layout examiner_exam_mode_results
 layout examiner_progress
 layout examiner_progress_dashboard_deck_list
+layout item_log
 layout item_reminder
+layout item_subject
 layout list_item_reminder
 layout login
 layout m3_alert_dialog

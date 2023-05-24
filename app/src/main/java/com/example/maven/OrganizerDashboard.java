@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class OrganizerDashboard extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnCreateSubject, btnCalendar, btnToDoList, btnTimer, btnGradesTracker, btnReminders;
+    Button btnCreateSubject, btnCalendar, btnToDoList, btnTimer, btnPerformanceLogs, btnReminders;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +30,8 @@ public class OrganizerDashboard extends AppCompatActivity implements View.OnClic
         btnTimer = findViewById(R.id.btnTimer);
         btnTimer.setOnClickListener(this);
 
-        btnGradesTracker = findViewById(R.id.btnGradesTracker);
-        btnGradesTracker.setOnClickListener(this);
+        btnPerformanceLogs = findViewById(R.id.btnPerformanceLogs);
+        btnPerformanceLogs.setOnClickListener(this);
 
         btnReminders = findViewById(R.id.btnReminders);
         btnReminders.setOnClickListener(this);
@@ -67,10 +67,12 @@ public class OrganizerDashboard extends AppCompatActivity implements View.OnClic
             // Perform specific action for btnTimer
             Intent intentTimer= new Intent(OrganizerDashboard.this, TimerActivity.class);
             startActivity(intentTimer);
-        } else if (click == R.id.btnGradesTracker) {
-            Toast.makeText(OrganizerDashboard.this, "Grade Tracker", Toast.LENGTH_SHORT).show();
+        } else if (click == R.id.btnPerformanceLogs) {
+            Toast.makeText(OrganizerDashboard.this, "Performance Logs", Toast.LENGTH_SHORT).show();
             // Button btnGradesTracker was clicked
             // Perform specific action for btnGradesTracker
+            Intent intentLogs= new Intent(OrganizerDashboard.this, PerformanceLogsActivity.class);
+            startActivity(intentLogs);
         } else if (click == R.id.btnReminders) {
             Toast.makeText(OrganizerDashboard.this, "Reminders!", Toast.LENGTH_SHORT).show();
             // Button btnReminders was clicked
