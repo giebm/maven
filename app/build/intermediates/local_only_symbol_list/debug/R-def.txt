@@ -95,15 +95,15 @@ id timePicker
 id timer_text_view
 id txtAddCard
 id txtAnswer
-id txtAnswerBlitz
 id txtAnswerHighlight
+id txtAnswerNonBlitz
 id txtCorrect
 id txtDeck
 id txtDeckName
 id txtName
 id txtQuestion
-id txtQuestionBlitz
 id txtQuestionHighlight
+id txtQuestionNonBlitz
 id txtTimer
 id txtWrong
 layout activity_calendar
@@ -122,6 +122,7 @@ layout examiner_deck
 layout examiner_deck_cards_overview
 layout examiner_exam_mode_blitz
 layout examiner_exam_mode_decks
+layout examiner_exam_mode_non_blitz
 layout examiner_exam_mode_results
 layout item_reminder
 layout list_item_reminder

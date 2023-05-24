@@ -16,16 +16,24 @@
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_deck_cards_overview.xml"
     },
     {
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_exam_mode_decks.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_exam_mode_decks.xml"
+    },
+    {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_list_item_reminder.xml.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\list_item_reminder.xml"
     },
     {
-        "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_deck.xml.flat",
-        "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_deck.xml"
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_exam_mode_blitz.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_exam_mode_blitz.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_activity_to_do_list.xml.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\activity_to_do_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_deck.xml.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_deck.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_sub_dashboard_button.xml.flat",
@@ -44,12 +52,12 @@
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_create_card.xml"
     },
     {
-        "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_splash_screen.xml.flat",
-        "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\splash_screen.xml"
-    },
-    {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_splash_screen.xml.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\splash_screen.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -58,6 +66,10 @@
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_deck.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_deck.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_item_reminder.xml.flat",
@@ -96,12 +108,16 @@
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\activity_subjects.xml"
     },
     {
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_dialog_add_task.xml.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\dialog_add_task.xml"
     },
     {
-        "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_exam_mode_non_blitz.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/examiner_exam_mode_non_blitz.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
@@ -118,10 +134,6 @@
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_login.xml.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\login.xml"
-    },
-    {
-        "merged": "com.example.maven.app-merged_res-33:/layout_examiner_exam_mode_results.xml.flat",
-        "source": "com.example.maven.app-main-35:/layout/examiner_exam_mode_results.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -158,6 +170,10 @@
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_background.png.flat",
         "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_exam_mode_results.xml.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_exam_mode_results.xml"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",

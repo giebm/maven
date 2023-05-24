@@ -65,7 +65,7 @@
 
             <Switch
                 android:id="@+id/switchBlitz"
-                android:layout_width="196dp"
+                android:layout_width="180dp"
                 android:layout_height="30dp"
                 android:text="Enter Blitz Mode"
                 android:textSize="16dp" />
@@ -81,9 +81,9 @@
             android:id="@+id/lblBlitzDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Blitz lets you take the quiz for one minute only!"
-            android:textStyle="italic"
-            android:textAlignment="center" />
+            android:text="Blitz lets you take the quiz for three minutes only!"
+            android:textAlignment="center"
+            android:textStyle="italic" />
 
         <Space
             android:layout_width="match_parent"

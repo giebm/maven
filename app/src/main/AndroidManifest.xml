@@ -52,6 +52,7 @@
         <activity android:name=".ExaminerExamMode" />
         <activity android:name=".ExaminerExamModeBlitz" />
         <activity android:name=".ExaminerExamModeResults" />
+        <activity android:name=".ExaminerExamModeNonBlitz" />
 
     </application>
 

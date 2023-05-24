@@ -118,13 +118,13 @@ public class ExaminerExamMode extends AppCompatActivity {
                     @Override
                     public void onComplete(Task<QuerySnapshot> task) {
                         if (task.isSuccessful() && !task.getResult().isEmpty()) {
-//                            DocumentReference deckRef = task.getResult().getDocuments().get(0).getReference();
-//                            String deckId = deckRef.getId();
-//
-//                            // Start the Non-Blitz mode activity and pass the deckId
-//                            Intent intent = new Intent(ExaminerExamMode.this, ExaminerExamModeNonBlitz.class);
-//                            intent.putExtra("deckId", deckId);
-//                            startActivity(intent);
+                            DocumentReference deckRef = task.getResult().getDocuments().get(0).getReference();
+                            String deckId = deckRef.getId();
+
+                            // Start the Non-Blitz mode activity and pass the deckId
+                            Intent intent = new Intent(ExaminerExamMode.this, ExaminerExamModeNonBlitz.class);
+                            intent.putExtra("deckId", deckId);
+                            startActivity(intent);
                         }
                     }
                 });

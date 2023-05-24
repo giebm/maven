@@ -3095,15 +3095,15 @@ int id transition_transform 0x7f08020f
 int id triangle 0x7f080210
 int id txtAddCard 0x7f080211
 int id txtAnswer 0x7f080212
-int id txtAnswerBlitz 0x7f080236
 int id txtAnswerHighlight 0x7f080213
+int id txtAnswerNonBlitz 0x7f08023e
 int id txtCorrect 0x7f08023c
 int id txtDeck 0x7f080214
 int id txtDeckName 0x7f080215
 int id txtName 0x7f080216
 int id txtQuestion 0x7f080217
-int id txtQuestionBlitz 0x7f080237
 int id txtQuestionHighlight 0x7f080218
+int id txtQuestionNonBlitz 0x7f08023f
 int id txtTimer 0x7f080238
 int id txtWrong 0x7f08023d
 int id unchecked 0x7f080219
@@ -3250,6 +3250,7 @@ int layout examiner_deck 0x7f0b003a
 int layout examiner_deck_cards_overview 0x7f0b003b
 int layout examiner_exam_mode_blitz 0x7f0b0089
 int layout examiner_exam_mode_decks 0x7f0b003c
+int layout examiner_exam_mode_non_blitz 0x7f0b008b
 int layout examiner_exam_mode_results 0x7f0b008a
 int layout item_reminder 0x7f0b003d
 int layout list_item_reminder 0x7f0b003e

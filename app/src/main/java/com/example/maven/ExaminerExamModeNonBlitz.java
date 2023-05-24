@@ -2,7 +2,6 @@ package com.example.maven;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -19,9 +18,8 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.List;
 
-public class ExaminerExamModeBlitz extends AppCompatActivity {
+public class ExaminerExamModeNonBlitz extends AppCompatActivity {
 
-    private TextView timer;
     private TextView question;
     private TextView answer;
     private Button showAnswer;
@@ -30,22 +28,18 @@ public class ExaminerExamModeBlitz extends AppCompatActivity {
 
     private List<DocumentSnapshot> cardList;
     private int currentCardIndex;
-    private boolean timedMode;
     private int countCorrect;
     private int countWrong;
 
     public String deckId;
-
-    private CountDownTimer countDownTimer;
 
     private FirebaseFirestore firestore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.examiner_exam_mode_blitz);
+        setContentView(R.layout.examiner_exam_mode_non_blitz);
 
-        timer = findViewById(R.id.txtTimer);
         question = findViewById(R.id.txtQuestionNonBlitz);
         answer = findViewById(R.id.txtAnswerNonBlitz);
         showAnswer = findViewById(R.id.btnShowAnswer);
@@ -102,11 +96,11 @@ public class ExaminerExamModeBlitz extends AppCompatActivity {
                                 cardList = documents;
                                 startExam();
                             } else {
-                                Toast.makeText(ExaminerExamModeBlitz.this, "No cards found", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ExaminerExamModeNonBlitz.this, "No cards found", Toast.LENGTH_SHORT).show();
                                 finish();
                             }
                         } else {
-                            Toast.makeText(ExaminerExamModeBlitz.this, "Failed to retrieve cards", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ExaminerExamModeNonBlitz.this, "Failed to retrieve cards", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                     }
@@ -119,12 +113,6 @@ public class ExaminerExamModeBlitz extends AppCompatActivity {
         countWrong = 0;
 
         showCard(currentCardIndex);
-
-        timedMode = true; // Set to your switch state
-
-        if (timedMode) {
-            startTimer(3 * 60 * 1000); // Set the time limit in milliseconds
-        }
     }
 
     private void showCard(int index) {
@@ -149,42 +137,14 @@ public class ExaminerExamModeBlitz extends AppCompatActivity {
         showCard(currentCardIndex);
     }
 
-    private void startTimer(long duration) {
-        countDownTimer = new CountDownTimer(duration, 1000) {
-            @Override
-            public void onTick(long millisUntilFinished) {
-                long seconds = millisUntilFinished / 1000;
-                timer.setText(String.format("Time remaining: %02d:%02d", seconds / 60, seconds % 60));
-            }
-
-            @Override
-            public void onFinish() {
-                finishExam();
-            }
-        };
-        countDownTimer.start();
-    }
-
     private void finishExam() {
-        if (countDownTimer != null) {
-            countDownTimer.cancel();
-        }
-
         // Pass the countCorrect, countWrong, and deckId to the results activity
-        Intent intent = new Intent(ExaminerExamModeBlitz.this, ExaminerExamModeResults.class);
+        Intent intent = new Intent(ExaminerExamModeNonBlitz.this, ExaminerExamModeResults.class);
         intent.putExtra("countCorrect", countCorrect);
         intent.putExtra("countWrong", countWrong);
         intent.putExtra("deckId", deckId);
         startActivity(intent);
 
         finish();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (countDownTimer != null) {
-            countDownTimer.cancel();
-        }
     }
 }
