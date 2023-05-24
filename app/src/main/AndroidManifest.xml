@@ -39,6 +39,10 @@
         <activity
             android:name=".DeckActivity"
             android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name=".ExaminerDeckOverview" />
+        <activity android:name=".ExaminerCreateCard" />
+
     </application>
 
 </manifest>

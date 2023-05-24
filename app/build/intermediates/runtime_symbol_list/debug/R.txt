@@ -2452,9 +2452,11 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070052
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070053
 int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
+int drawable add_button 0x7f0700bb
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
 int drawable background 0x7f070058
+int drawable black_bar 0x7f0700bc
 int drawable btn_checkbox_checked_mtrl 0x7f070059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07005a
 int drawable btn_checkbox_unchecked_mtrl 0x7f07005b
@@ -2658,12 +2660,15 @@ int id browser_actions_menu_item_icon 0x7f080065
 int id browser_actions_menu_item_text 0x7f080066
 int id browser_actions_menu_items 0x7f080067
 int id browser_actions_menu_view 0x7f080068
+int id btnAddCard 0x7f08020a
 int id btnAddDeck 0x7f080069
 int id btnAddNote 0x7f08006a
 int id btnAddPhoto 0x7f08006b
 int id btnAddSubject 0x7f08006c
 int id btnCalendar 0x7f08006d
+int id btnCancel 0x7f08020d
 int id btnCreateCard 0x7f08006e
+int id btnCreateCardFromDeck 0x7f08020e
 int id btnCreateDeck 0x7f08006f
 int id btnCreateSubject 0x7f080070
 int id btnExamMode 0x7f080071
@@ -2798,6 +2803,7 @@ int id ignoreRequest 0x7f0800f1
 int id image 0x7f0800f2
 int id imageView 0x7f0800f3
 int id imageView2 0x7f0800f4
+int id imageView3 0x7f080209
 int id imageView4 0x7f0800f5
 int id imageView5 0x7f0800f6
 int id imageView6 0x7f0800f7
@@ -2827,6 +2833,7 @@ int id listMode 0x7f08010e
 int id listNotes 0x7f08010f
 int id listSubjects 0x7f080110
 int id list_item 0x7f080111
+int id lvCards 0x7f08020f
 int id lvDecks 0x7f080112
 int id masked 0x7f080113
 int id match_constraint 0x7f080114
@@ -3030,8 +3037,10 @@ int id textinput_helper_text 0x7f0801d9
 int id textinput_placeholder 0x7f0801da
 int id textinput_prefix_text 0x7f0801db
 int id textinput_suffix_text 0x7f0801dc
+int id tfAnswer 0x7f080210
 int id tfDeckName 0x7f0801dd
 int id tfName 0x7f0801de
+int id tfQuestion 0x7f080211
 int id time 0x7f0801df
 int id title 0x7f0801e0
 int id titleDividerNoCustom 0x7f0801e1
@@ -3048,8 +3057,12 @@ int id transition_position 0x7f0801eb
 int id transition_scene_layoutid_cache 0x7f0801ec
 int id transition_transform 0x7f0801ed
 int id triangle 0x7f0801ee
+int id txtAddCard 0x7f080212
+int id txtAnswer 0x7f080213
 int id txtDeck 0x7f0801ef
+int id txtDeckName 0x7f080214
 int id txtName 0x7f0801f0
+int id txtQuestion 0x7f080215
 int id unchecked 0x7f0801f1
 int id uniform 0x7f0801f2
 int id unlabeled 0x7f0801f3
@@ -3183,7 +3196,9 @@ int layout design_navigation_menu_item 0x7f0b002f
 int layout design_text_input_end_icon 0x7f0b0030
 int layout design_text_input_start_icon 0x7f0b0031
 int layout examiner 0x7f0b0032
+int layout examiner_create_card 0x7f0b007e
 int layout examiner_deck 0x7f0b0033
+int layout examiner_deck_cards_overview 0x7f0b007f
 int layout login 0x7f0b0034
 int layout m3_alert_dialog 0x7f0b0035
 int layout m3_alert_dialog_actions 0x7f0b0036

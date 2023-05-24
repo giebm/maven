@@ -1,5 +1,6 @@
 package com.example.maven;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -69,8 +70,7 @@ public class DeckActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String selectedDeck = deckList.get(position);
-                // TODO: Add your logic to handle deck selection
-                Toast.makeText(DeckActivity.this, "Selected deck: " + selectedDeck, Toast.LENGTH_SHORT).show();
+                navigateToDeckOverview(selectedDeck);
             }
         });
     }
@@ -113,5 +113,12 @@ public class DeckActivity extends AppCompatActivity {
                         }
                     }
                 });
+    }
+
+    // Navigate to DeckOverviewActivity
+    private void navigateToDeckOverview(String deckName) {
+        Intent intent = new Intent(DeckActivity.this, ExaminerDeckOverview.class);
+        intent.putExtra("deckName", deckName);
+        startActivity(intent);
     }
 }

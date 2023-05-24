@@ -2453,9 +2453,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_button
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable black_bar
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2659,12 +2661,15 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAddCard
 id btnAddDeck
 id btnAddNote
 id btnAddPhoto
 id btnAddSubject
 id btnCalendar
+id btnCancel
 id btnCreateCard
+id btnCreateCardFromDeck
 id btnCreateDeck
 id btnCreateSubject
 id btnExamMode
@@ -2799,6 +2804,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
 id imageView4
 id imageView5
 id imageView6
@@ -2828,6 +2834,7 @@ id listMode
 id listNotes
 id listSubjects
 id list_item
+id lvCards
 id lvDecks
 id masked
 id match_constraint
@@ -3031,8 +3038,10 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tfAnswer
 id tfDeckName
 id tfName
+id tfQuestion
 id time
 id title
 id titleDividerNoCustom
@@ -3049,8 +3058,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtAddCard
+id txtAnswer
 id txtDeck
+id txtDeckName
 id txtName
+id txtQuestion
 id unchecked
 id uniform
 id unlabeled
@@ -3184,7 +3197,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout examiner
+layout examiner_create_card
 layout examiner_deck
+layout examiner_deck_cards_overview
 layout login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
