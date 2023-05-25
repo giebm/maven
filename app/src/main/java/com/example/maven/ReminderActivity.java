@@ -26,6 +26,9 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -73,17 +76,47 @@ public class ReminderActivity extends AppCompatActivity {
             public void onComplete(Task<QuerySnapshot> task) {
                 if (task.isSuccessful()) {
                     reminderList.clear();
+                    Calendar currentDate = Calendar.getInstance(); // Get the current date and time
+
                     for (QueryDocumentSnapshot document : task.getResult()) {
                         // Retrieve reminder data from Firestore
                         String reminderText = document.getString("text");
                         String dateTime = document.getString("datetime");
 
-                        // Create Reminder object
-                        Reminder reminder = new Reminder(reminderText, dateTime);
+                        // Parse the date and time from the reminder
+                        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault());
+                        Calendar reminderDate = Calendar.getInstance();
+                        try {
+                            reminderDate.setTime(sdf.parse(dateTime));
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
 
-                        // Add reminder to the list
-                        reminderList.add(reminder);
+                        // Check if the reminder date is in the future
+                        if (reminderDate.after(currentDate)) {
+                            // Create Reminder object
+                            Reminder reminder = new Reminder(reminderText, dateTime);
+
+                            // Add reminder to the list
+                            reminderList.add(reminder);
+                        }
                     }
+
+                    // Sort the reminders by date in ascending order
+                    Collections.sort(reminderList, new Comparator<Reminder>() {
+                        @Override
+                        public int compare(Reminder r1, Reminder r2) {
+                            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault());
+                            try {
+                                Date date1 = sdf.parse(r1.getDateTime());
+                                Date date2 = sdf.parse(r2.getDateTime());
+                                return date1.compareTo(date2);
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                            return 0;
+                        }
+                    });
 
                     // Notify the adapter that the dataset has changed
                     remindersAdapter.notifyDataSetChanged();
@@ -93,6 +126,7 @@ public class ReminderActivity extends AppCompatActivity {
             }
         });
     }
+
 
     /*private void showAddReminderDialog() {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);

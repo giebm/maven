@@ -1,49 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
+    <EditText
+        android:id="@+id/subject_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Logs"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:hint="Subject" />
 
     <EditText
-        android:id="@+id/subjectEditText"
+        android:id="@+id/activity_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Subject"
-        android:minHeight="50dp" />
+        android:hint="Activity" />
 
     <EditText
-        android:id="@+id/activityEditText"
+        android:id="@+id/score_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Activity"
-        android:minHeight="50dp" />
-
-    <EditText
-        android:id="@+id/scorePercentageEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Score Percentage"
         android:inputType="number"
-        android:minHeight="50dp" />
+        android:hint="Score Percentage" />
 
     <EditText
-        android:id="@+id/activityPercentageEditText"
+        android:id="@+id/activity_percentage_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Activity Percentage"
         android:inputType="number"
-        android:minHeight="50dp" />
+        android:hint="Activity Percentage on Final Grade" />
 
     <Button
-        android:id="@+id/submitButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Submit" />
 
