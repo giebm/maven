@@ -83,6 +83,7 @@
         <activity
             android:name="com.example.maven.ExaminerCardHighlight"
             android:label="ExaminerCardHighlight" />
+        <activity android:name="com.example.maven.ExaminerTips" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

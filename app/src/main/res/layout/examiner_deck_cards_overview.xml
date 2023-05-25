@@ -5,33 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:orientation="vertical"
+    <Button
+        android:id="@+id/btnCreateCardFromDeck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Card"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
 
-        <TextView
-            android:id="@+id/txtDeckName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Deck Name Here"
-            android:textAlignment="center"
-            android:textSize="31dp" />
+    <TextView
+        android:id="@+id/txtDeckName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Deck Name Here"
+        android:textAlignment="center"
+        android:textSize="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
 
-        <ListView
-            android:id="@+id/lvCards"
-            android:layout_width="match_parent"
-            android:layout_height="639dp" />
+    <ListView
+        android:id="@+id/lvCards"
+        android:layout_width="344dp"
+        android:layout_height="486dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
 
-        <Button
-            android:id="@+id/btnCreateCardFromDeck"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add Card" />
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -26,8 +26,8 @@ public class Dashboard extends AppCompatActivity {
         btnTester = findViewById(R.id.btnTester);
 
         // name of user
-        String userName = getIntent().getStringExtra("textValue" + "!");
-        txtName.setText(userName);
+        String userName = getIntent().getStringExtra("textValue");
+        txtName.setText(userName + "!");
 
         // button organizer
         btnOrganizer.setOnClickListener(new View.OnClickListener() {

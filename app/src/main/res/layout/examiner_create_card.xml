@@ -1,111 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/create_card" />
 
-        <LinearLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+    <EditText
+        android:id="@+id/tfQuestion"
+        android:layout_width="353dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter your question here..."
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.32" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="80dp" />
+    <Button
+        android:id="@+id/btnAddCard"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#4CAF50"
+        android:text="Add Card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
 
-            <TextView
-                android:id="@+id/txtAddCard"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Create Card"
-                android:textAlignment="center"
-                android:textSize="34sp" />
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#BD4949"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
+    <EditText
+        android:id="@+id/tfAnswer"
+        android:layout_width="353dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter your answer here..."
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.444" />
 
-            <TextView
-                android:id="@+id/txtQuestion"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Question:"
-                android:textSize="20sp" />
-
-            <EditText
-                android:id="@+id/tfQuestion"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:ems="10"
-                android:gravity="start|top"
-                android:hint="Enter your question here..."
-                android:inputType="textMultiLine" />
-
-            <!-- Add Photo button for Question -->
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
-            <TextView
-                android:id="@+id/txtAnswer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Answer:"
-                android:textSize="20sp" />
-
-            <EditText
-                android:id="@+id/tfAnswer"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:ems="10"
-                android:gravity="start|top"
-                android:hint="Enter your answer here..."
-                android:inputType="textMultiLine" />
-
-            <!-- Add Photo button for Answer -->
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="30dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/btnCancel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="#BD4949"
-                    android:text="Cancel" />
-
-                <Button
-                    android:id="@+id/btnAddCard"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="#4CAF50"
-                    android:text="Add Card" />
-            </LinearLayout>
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-        </LinearLayout>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

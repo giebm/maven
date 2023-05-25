@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ExaminerDashboard extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnCreateDeck, btnCreateCard, btnExamMode, btnProgress;
+    Button btnCreateDeck, btnExamMode, btnProgress, btnTips;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,15 +21,14 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
         btnCreateDeck = findViewById(R.id.btnCreateDeck);
         btnCreateDeck.setOnClickListener(this);
 
-        btnCreateCard = findViewById(R.id.btnCreateCard);
-        btnCreateCard.setOnClickListener(this);
-
         btnExamMode = findViewById(R.id.btnExamMode);
         btnExamMode.setOnClickListener(this);
 
         btnProgress = findViewById(R.id.btnProgress);
         btnProgress.setOnClickListener(this);
 
+        btnTips = findViewById(R.id.btnTips);
+        btnTips.setOnClickListener(this);
     }
 
     @Override
@@ -40,10 +39,6 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
             Toast.makeText(ExaminerDashboard.this, "Create Deck!", Toast.LENGTH_SHORT).show();
             Intent intentCreateDeck = new Intent(ExaminerDashboard.this, DeckActivity.class);
             startActivity(intentCreateDeck);
-        } else if (click == R.id.btnCreateCard) {
-            Toast.makeText(ExaminerDashboard.this, "Create Card!", Toast.LENGTH_SHORT).show();
-            // Button btnCalendar was clicked
-            // Perform specific action for btnCalendar
         } else if (click == R.id.btnExamMode) {
             Toast.makeText(ExaminerDashboard.this, "Exam!", Toast.LENGTH_SHORT).show();
             Intent intentExam = new Intent(ExaminerDashboard.this, ExaminerExamMode.class);
@@ -52,7 +47,11 @@ public class ExaminerDashboard extends AppCompatActivity implements View.OnClick
             Toast.makeText(ExaminerDashboard.this, "Progress!", Toast.LENGTH_SHORT).show();
             Intent intentProgress = new Intent(ExaminerDashboard.this, ExaminerProgressDashboardDeckList.class);
             startActivity(intentProgress);
-        }
+        } else if (click == R.id.btnTips) {
+                Toast.makeText(ExaminerDashboard.this, "Tips!", Toast.LENGTH_SHORT).show();
+                Intent intentTips = new Intent(ExaminerDashboard.this, ExaminerTips.class);
+                startActivity(intentTips);
+            }
     }
 
 }

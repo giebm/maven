@@ -60,6 +60,7 @@
         <activity
             android:name=".ExaminerCardHighlight"
             android:label="ExaminerCardHighlight" />
+        <activity android:name=".ExaminerTips" />
     </application>
 
 </manifest>

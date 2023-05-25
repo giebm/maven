@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.29" />
 
     <Button
-        android:id="@+id/btnCreateCard"
+        android:id="@+id/btnExamMode"
         android:layout_width="133dp"
         android:layout_height="131dp"
         android:background="@drawable/sub_dashboard_button"
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.29" />
 
     <Button
-        android:id="@+id/btnExamMode"
+        android:id="@+id/btnProgress"
         android:layout_width="133dp"
         android:layout_height="131dp"
         android:background="@drawable/sub_dashboard_button"
@@ -58,10 +58,10 @@
         app:layout_constraintHorizontal_bias="0.226"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        app:layout_constraintVertical_bias="0.553" />
 
     <Button
-        android:id="@+id/btnProgress"
+        android:id="@+id/btnTips"
         android:layout_width="133dp"
         android:layout_height="131dp"
         android:background="@drawable/sub_dashboard_button"
@@ -71,6 +71,6 @@
         app:layout_constraintHorizontal_bias="0.766"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        app:layout_constraintVertical_bias="0.553" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
