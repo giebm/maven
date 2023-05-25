@@ -114,6 +114,7 @@ id tfName
 id tfQuestion
 id timePicker
 id timer_text_view
+id title_text_view
 id txtAddCard
 id txtAnswer
 id txtAnswerHighlight

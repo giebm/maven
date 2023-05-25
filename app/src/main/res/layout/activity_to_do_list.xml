@@ -8,10 +8,21 @@
     android:paddingBottom="16dp"
     tools:context=".ToDoListActivity">
 
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TO DO"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/textViewTitle"
         android:layout_above="@+id/addTaskButton" />
 
     <Button
@@ -21,6 +32,5 @@
         android:layout_alignParentBottom="true"
         android:onClick="onAddTaskClicked"
         android:text="Add Task" />
-
 
 </RelativeLayout>

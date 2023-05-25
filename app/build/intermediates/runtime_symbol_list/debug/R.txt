@@ -3102,6 +3102,7 @@ int id timer_text_view 0x7f08021e
 int id title 0x7f08021f
 int id titleDividerNoCustom 0x7f080220
 int id title_template 0x7f080221
+int id title_text_view 0x7f080257
 int id toggle 0x7f080222
 int id top 0x7f080223
 int id topPanel 0x7f080224

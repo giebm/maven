@@ -3103,6 +3103,7 @@ id timer_text_view
 id title
 id titleDividerNoCustom
 id title_template
+id title_text_view
 id toggle
 id top
 id topPanel

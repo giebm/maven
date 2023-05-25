@@ -48,12 +48,12 @@
         "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_exam_mode_results.xml"
     },
     {
-        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_progress.xml.flat",
-        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_progress.xml"
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_reminder.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_reminder.xml"
     },
     {
-        "merged": "com.example.maven.app-merged_res-33:/layout_dialog_add_reminder.xml.flat",
-        "source": "com.example.maven.app-main-35:/layout/dialog_add_reminder.xml"
+        "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\layout_examiner_progress.xml.flat",
+        "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\examiner_progress.xml"
     },
     {
         "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -164,6 +164,10 @@
         "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\login.xml"
     },
     {
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_subjects.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_subjects.xml"
+    },
+    {
         "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\ic_launcher_background.xml"
     },
@@ -228,7 +232,19 @@
         "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\layout\\dashboard.xml"
     },
     {
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_to_do_list.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_to_do_list.xml"
+    },
+    {
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_notes.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_notes.xml"
+    },
+    {
         "merged": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-merged_res-33:\\drawable_sub_dashboard_button.xml.flat",
         "source": "C:\\Users\\alest\\.gradle\\daemon\\7.5\\com.example.maven.app-main-35:\\drawable\\sub_dashboard_button.xml"
+    },
+    {
+        "merged": "com.example.maven.app-merged_res-33:/layout_activity_timer.xml.flat",
+        "source": "com.example.maven.app-main-35:/layout/activity_timer.xml"
     }
 ]
